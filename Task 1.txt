@@ -1,0 +1,73 @@
+Q.No. 1 --> Write a blog on Difference between HTTP1.1 vs HTTP2
+
+What is Http 1.1?
+Http 1.1 version was introduced in 1997. The is the major version of HTTP network protocol used by the World Wide Web. Http is a top level application protocol that exchanges information 
+between a client computer and a local and remote web server.  This version introduces many performance enhancements like caching mechanism, transfer encoding, keepalive connections, 
+byte range requests, and request pipelining. This protocol worked for 15 years almost.  
+Key features of Http 1.1
+Http 1.1 provided support for chunk transfer that allowed streaming of content.
+Cache control to specify policies in both requests and responses
+The upgrade header indicates a preference from the client to switch to a more preferred protocol.
+Content negotiation
+
+The Http 1.1 had no requirement when Http 2 version launched in 2015.
+What is Http 2?
+Http 2 is the new version of HTTP 1.1. The protocol introduced back in February 2015 by the Internet Engineering Task Force (IETF) Http working group. The newish protocol transport data to 
+drastically speed up the web and can help boost your Search Engine Optimization. It uses new technologies to provide full multiplexing connections. I would say Http 2 is much needed
+ upgrade to the Http protocol; it manages the communication between browsers and web servers. Moreover, Http 2 provides a dramatic speed boost for the website.
+Key features of Http 2
+Http 2 version brings the concept of multiplexing to alternate the requests and responses without head-of-line blocking and does so over a single TCP connection.
+Http 2 server also pushes and request proactively into client caches In lieu of waiting for a new request for each resource.
+Package blocking, Binary protocols, High-level compatibility with Http 1.1 such as methods, URLs, status codes, and header fields.
+
+Now look the performance comparison between Http 1.1 and Http 2.
+Major performance comparison between Http 1.1 and Http 2
+#Web traffic
+Http 1.1 – It provides faster delivery of web pages and reduces web traffic if you compare it to Http 1.0. However, there is an increased risk of network congestion.
+Http 2 – The Http 2 version utilizes multiplexing and server pushes to effectively reduce the page load time by a greater margin along with being sensitive to network delays.
+#Performance optimization
+Http 1.1 – Some of the optimizations used is Http 1.1 version are sprinting, inlining, domain shrading, and concatenating.
+Http 2 – This protocol version removes the need for unnecessary optimization hacks.
+#Status code
+Http 1.1 – This protocol introduces a warning header field to carry additional information about the status of a message. It can define 24 status codes, error reporting is quicker and more efficient.
+Http 2 – It brings the fundamental semantics of HTTP like headers, and status code remains the same.
+#Authentication mechanism
+Http 1.1 – Protocol Http 1.1 is much secured than Http 1.0 because it uses digest authentication and NTLM authentication.
+Http 2.2 – The security concern in Http 2 version is also good and almost same as Http 1.1. Rather Http 2 is better equipped to deal with security threats because of the new features it brings. 
+#Security
+Http 1.1 – In this version, SSL or secure sockets layer is not required but recommended. Digest authentication is an improvement over Http 1.0 which is now being used in Http 1.1. Moreover, 
+Https uses SSL/TLS for secure encrypted communication.
+Http 2 – In Http 2 protocol, security is not at all recommended. It is because the security is encrypted since all almost all clients demand traffic to be encrypted. It also has minimum standards 
+and minimum key size for encryption.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.No.2--> Write a blog about objects and its internal representation in Javascript
+JavaScript, renowned for its versatility, derives much of its power from objects. Let's embark on a brief journey into the inner workings of objects in JavaScript, unraveling the magic that allows 
+developers to model entities and construct dynamic applications. JavaScript's object-oriented nature thrives on the use of objects as fundamental components. These entities encapsulate data and
+ behavior, providing a flexible means to structure code.
+Digging into the internal representation of objects, key concepts emerge:
+Object Properties: Each property is defined by a property descriptor, encapsulating details like value, writability, enumerability, and configurability.
+Property Access Optimization: JavaScript engines optimize property access, employing techniques like hidden classes for enhanced performance.
+Memory Management: Garbage collection ensures efficient memory handling, freeing up space when objects are no longer reachable.
+Protoypal Inheritance: The prototype chain links objects, allowing inheritance of properties and methods.
+Object Creation Patterns:
+JavaScript offers diverse methods for object creation:
+Object Literal: Concise for one-off objects.
+Constructor Functions: Create multiple instances using the new keyword.
+Object.create(): Provides control over the prototype chain.
+Performance Optimization Techniques
+Efficient coding involves mastering JavaScript engine intricacies. Techniques like optimizing property access and judicious use of prototype inheritance contribute to performance.
+Objects, the bedrock of JavaScript, offer a dynamic framework for coding. Understanding their internal representation and creation patterns empowers developers to craft efficient, 
+dynamic applications. As you navigate JavaScript development, keep exploring the nuances of objects – the key to unlocking the language's full potential. Happy coding!
+
+
+
+
+
+
+
+
+
+
+
+
